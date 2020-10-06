@@ -1,0 +1,8 @@
+---
+- hosts: web
+  become: yes
+  tasks:
+    - name: copying a file
+      copy:
+              src: /home/ubuntu/test
+              dest: /home/ansible

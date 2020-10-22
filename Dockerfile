@@ -1,6 +1,6 @@
 FROM tomcat:latest
 WORKDIR 'webapps'
-COPY . .
+COPY . . .
 EXPOSE 8085
 CMD ["catalina.sh", "run"]
 

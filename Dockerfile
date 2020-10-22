@@ -1,6 +1,6 @@
 FROM tomcat:latest
 WORKDIR 'webapps'
-COPY gameoflife.war .
+COPY . .
 EXPOSE 8085
 CMD ["catalina.sh", "run"]
-FROM ubuntu:latest
+
